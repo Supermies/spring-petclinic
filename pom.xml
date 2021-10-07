@@ -383,11 +383,11 @@
       </build>
     </profile>
   </profiles>
-  <distributionManagement>
-    <repository>
-      <id>example-org-artifacts--maven-artifacts</id>
-      <name>example-org-artifacts--maven-artifacts</name>
-      <url>https://example-org-artifacts-967164525202.d.codeartifact.eu-west-1.amazonaws.com/maven/maven-artifacts/</url>
-    </repository>
-  </distributionManagement>
+<distributionManagement>
+  <repository>
+    <id>example-org-artifacts-maven-artifacts</id>
+    <name>example-org-artifacts-maven-artifacts</name>
+    <url>https://example-org-artifacts-967164525202.d.codeartifact.eu-west-1.amazonaws.com/maven/maven-artifacts/</url>
+  </repository>
+</distributionManagement>
 </project>
